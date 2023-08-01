@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+input{
+    background-color: grey;
+    border: 3px solid teal;
+}
+.gender{
+    display: flex;
+}
+.gender>input{
+    margin-left: 17%;
+}
+.favorite >input{
+    margin-left: 40%;
+    gap: 5px;
+}
+button{
+    width: 200%;
+    background-color: salmon;
+    border: 3px solid black;
+}
+select{
+    background-color: teal;
+    border: 3px solid yellow;
+}
+.address{
+    display: flex;
+    gap: 10px;
+}
+textarea{
+    background-color: powderblue;
+    border: 3px solid purple;
+    width: 80%;
+}
